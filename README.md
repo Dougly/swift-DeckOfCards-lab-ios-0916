@@ -257,7 +257,6 @@ You can attempt to try this out on your own before looking at this hint.
         let cardView = CardView(frame: CGRect(x: randomX, y: randomY, width: cardViewWidth, height: cardViewHeight))
         view.addSubview(cardView)
 
-        cardView.delegate = self
         cardView.card = card
     }
 ```
