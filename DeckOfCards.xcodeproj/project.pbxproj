@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11FCAA321DDB9B000072C46A /* CardAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FCAA311DDB9B000072C46A /* CardAPIClient.swift */; };
+		11FCAA341DDB9D180072C46A /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FCAA331DDB9D180072C46A /* Deck.swift */; };
+		11FCAA361DDBA0C00072C46A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FCAA351DDBA0C00072C46A /* Card.swift */; };
 		7DC644421DCC0C330081E4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC644411DCC0C330081E4CD /* AppDelegate.swift */; };
 		7DC644441DCC0C330081E4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC644431DCC0C330081E4CD /* ViewController.swift */; };
 		7DC644471DCC0C330081E4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DC644451DCC0C330081E4CD /* Main.storyboard */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11FCAA311DDB9B000072C46A /* CardAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAPIClient.swift; sourceTree = "<group>"; };
+		11FCAA331DDB9D180072C46A /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		11FCAA351DDBA0C00072C46A /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		7DC6443E1DCC0C320081E4CD /* DeckOfCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DC644411DCC0C330081E4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DC644431DCC0C330081E4CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				7DC644411DCC0C330081E4CD /* AppDelegate.swift */,
+				11FCAA311DDB9B000072C46A /* CardAPIClient.swift */,
+				11FCAA331DDB9D180072C46A /* Deck.swift */,
+				11FCAA351DDBA0C00072C46A /* Card.swift */,
 				7DC644431DCC0C330081E4CD /* ViewController.swift */,
 				7DC644451DCC0C330081E4CD /* Main.storyboard */,
 				7DC644481DCC0C330081E4CD /* Assets.xcassets */,
@@ -102,7 +111,6 @@
 				TargetAttributes = {
 					7DC6443D1DCC0C320081E4CD = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 3E2QGNXM7N;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DC6445E1DCC47560081E4CD /* CardView.swift in Sources */,
+				11FCAA361DDBA0C00072C46A /* Card.swift in Sources */,
+				11FCAA321DDB9B000072C46A /* CardAPIClient.swift in Sources */,
+				11FCAA341DDB9D180072C46A /* Deck.swift in Sources */,
 				7DC644441DCC0C330081E4CD /* ViewController.swift in Sources */,
 				7DC644421DCC0C330081E4CD /* AppDelegate.swift in Sources */,
 			);
@@ -267,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E2QGNXM7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DeckOfCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -281,7 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3E2QGNXM7N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DeckOfCards/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
